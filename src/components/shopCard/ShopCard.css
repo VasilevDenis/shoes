@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    background-color: rgba(245, 245, 246, 1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+img {
+    width: 300px;
+}
+
+.price-color {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+button {
+    border: 1px solid gray;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50lh;
+    border: 1px solid rgb(169, 14, 14);
+    color: rgb(169, 14, 14);
+}
+
+.price {
+    color: rgb(169, 14, 14);
+    font-size: 25px;
+}
+
+.color {
+    color: grey;
+}
